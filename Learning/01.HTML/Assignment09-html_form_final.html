@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Race Registration</h1>
+    <form action="">
+        <p>
+            <label for="firstname">first Name: </label>
+            <input type="text" id="firstname" required>
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname">
+        </p>
+        <p>
+        <p><b>Select a race</b></p>
+        <input type="radio" name="race" id="5km" value="5km">
+        <label for="5km">5 km Run</label><br>
+        <input type="radio" name="race" id="hm" value="hm">
+        <label for="hm">Half maraton</label><br>
+        <input type="radio" name="race" id="fm" value="fm">
+        <label for="fm">Full maraton</label>
+        </p>
+        <p>
+            <label for="email">Emailadress: </label>
+            <input type="email" name="email" id="email" placeholder="adress@example.com">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="password" minlength="8"
+                maxlength="16"><br>
+            <select name="age" id="age">
+                <option value="none" selected>please select your age</option>
+                <option value="0-18"> less than 18</option>
+                <option value="18-25">18-25</option>
+                <option value="25-35">25-35</option>
+                <option value="35-45">35-45</option>
+                <option value="45-55">45-55</option>
+                <option value="over 55">over 55</option>
+            </select>
+        </p>
+        <button>register</button>
+    </form>
+</body>
+
+</html>
