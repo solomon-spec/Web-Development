@@ -1,0 +1,17 @@
+.blue-color {
+    color: blue;
+}
+
+.gray-color {
+    color: gray;
+}
+
+#clear {
+    background-color: red;
+    color: white;
+}
+
+#add {
+    background-color: lightgray;
+    color: black;
+}
