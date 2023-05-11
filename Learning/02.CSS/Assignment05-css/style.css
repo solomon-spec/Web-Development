@@ -1,0 +1,14 @@
+header * {
+    color: teal;
+    text-decoration: underline teal;
+}
+
+#like span {
+    color: blue;
+    text-decoration: underline blue;
+}
+
+#hate span {
+    color: red;
+    text-decoration: underline red;
+}
