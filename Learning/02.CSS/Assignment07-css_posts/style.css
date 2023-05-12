@@ -1,0 +1,50 @@
+body {
+    background-color: #F6FFDE;
+}
+
+#login {
+    background-color: #5D9C59;
+    color: black;
+}
+
+#register {
+    background-color: #2D2727;
+    color: white;
+}
+
+.like {
+    background-color: red;
+    color: #2D2727;
+    border-radius: 4px;
+    border-width: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.posted_name {
+    color: #999999;
+    text-decoration: underline gray;
+}
+
+.post {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tag {
+    background-color: #999999;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+}
+
+.posts:nth-of-type(2n) {
+    background-color: aliceblue;
+}
+
+.posts {
+    margin: 0px;
+}
