@@ -1,0 +1,120 @@
+* {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+}
+
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    text-align: center;
+}
+
+#main-div {
+    background-color: white;
+    width: 80%;
+    min-width: 600px;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 1.3em;
+    padding: 6%;
+}
+
+.price-div {
+    width: 30%;
+    margin: 0em, 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    text-align: center;
+}
+
+.price-div:nth-of-type(n+2) {
+    border-left: 1px solid rgb(152, 152, 152);
+}
+
+figure {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.price-div li {
+    text-align: center;
+    color: rgb(30, 118, 206);
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: 1px solid rgb(152, 152, 152);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+ul {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 1.3em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.5em 1.5em;
+    border: 1px solid rgb(30, 118, 206);
+    border-radius: 0.5em;
+    text-align: center;
+    color: rgb(30, 118, 206);
+}
+
+.price-div .price {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 600px)and (max-width: 900px) {
+    #main-div {
+
+        margin: auto;
+        min-height: 100vh;
+        align-items: center;
+    }
+
+    ul {
+        padding: 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    #main-div {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 0px;
+    }
+
+    .price-div {
+        width: 100%;
+        font-size: 2.5em;
+    }
+}
