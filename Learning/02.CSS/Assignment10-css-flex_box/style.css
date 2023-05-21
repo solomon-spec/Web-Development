@@ -1,0 +1,39 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 568px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    nav,
+    ul {
+        flex-direction: column;
+        align-items: last baseline;
+    }
+}
