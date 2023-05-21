@@ -116,5 +116,6 @@ button {
     .price-div {
         width: 100%;
         font-size: 2.5em;
+        padding:0px;
     }
 }
