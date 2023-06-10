@@ -1,0 +1,53 @@
+#table{
+    background-color: white;
+    width:300px;
+    margin: auto;
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 3px;
+}
+
+img{
+    width:100%;
+}
+#player1-btn{
+    background-color: aqua;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em;
+    color: white;
+    flex-grow: 1;
+}
+#player2-btn{
+    background-color: rgb(7, 88, 123);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em;
+    color: white;
+    flex-grow: 1;
+}
+#reset-btn{
+    background-color: rgb(175, 11, 11);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em;
+    color: white;
+    flex-grow: 1;
+}
+#buttons{
+    display: flex;
+}
+h1,p{
+    margin: 3%;
+}
+#main{
+    padding:1em;
+}
+#playingTo{
+    display: inline-block;
+}
+.winner{
+    color: green;
+}
+.looser{
+    color: red;
+}
